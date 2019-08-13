@@ -157,7 +157,7 @@ while True:
     f1 = pygame.freetype.Font("C://Windows//Fonts//msyh.ttc", 36)
     # f1rect = f1.render_to(screen, (position.left,position.bottom+60), words, fgcolor=GOLD, size=25)
     f2rect = f1.render_to(screen, position3, "白嫖", fgcolor=GOLD, size=25)
-    # f2rect = f1.render_to(screen, (600,500), "查询优化器-物理查询优化", fgcolor=GOLD, size=25)
+    f2rect = f1.render_to(screen, (600,500), str(num_piao-num_wash), fgcolor=GOLD, size=25)
     #f2rect = f1.render_to(screen, (120,400), "", fgcolor=GOLD, size=25)
     #screen.blit(hand,(position.left,position.bottom+20))
     out1=judge(position1,position.left,position.right,position.bottom,position.top)
