@@ -30,7 +30,7 @@ def judge(temp1,left,right,bottom,top):
 #初始化Pygame
 pygame.init()
  
-size = width,hight = 1200,800
+size = width,hight = 800,600
 speed = [3,1]
 speed1 = [7,3]
 speed2 = [6,4]

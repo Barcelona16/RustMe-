@@ -10,3 +10,8 @@
 ## requirements
 python3
 >pygame
+
+![](1.png)
+
+
+![](2.png)
